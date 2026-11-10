@@ -107,7 +107,6 @@ public class PropertyDriverJUnitTestStudent {
             assertTrue(result.contains("Prop4"));
             assertTrue(result.contains("Prop5"));
             assertFalse(result.contains("Prop6"));
-            System.out.println(result);
         } finally {
             System.setOut(output);
         }
